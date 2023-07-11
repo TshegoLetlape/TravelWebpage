@@ -70,7 +70,7 @@
         text-align: center;
       }
       .home h1 {
-        font-size: 4rem;
+        font-size: 60px;
         color: #fff;
         text-transform: capitalize;
       }
@@ -103,6 +103,20 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+      }
+      @media only screen and (max-width: 1000px) {
+        .container {
+          display: inline;
+        }
+        .home h1 {
+          width: 100%;
+          font-size: 30px;
+          color: #fff;
+          text-transform: capitalize;
+          float: left;
+          flex-wrap: wrap;
+          display: inline;
+        }
       }
     </style>
   </head>
